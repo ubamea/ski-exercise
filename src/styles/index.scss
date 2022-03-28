@@ -1,0 +1,28 @@
+:root {
+  --app-dark      : #0B2744;
+  --app-yellow    : #EBCA67;
+  --box-shadow-low: 0px 3px 6px rgb(0 0 0 /5%);
+}
+
+@import '~bootstrap/scss/bootstrap';
+
+
+
+body {
+  margin          : 0;
+  background-color: #F9F9F9;
+  font-family     : -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.col {
+  max-width: 90% !important;
+}
